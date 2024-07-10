@@ -1,4 +1,4 @@
-## Background
+# Background
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
@@ -23,7 +23,7 @@ Inside your local git repository, create a directory for the Deep Learning Chall
 
 Push the above changes to GitHub.
 
-## Instructions
+# Instructions
 #### Step 1: Preprocess the Data
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
 
@@ -125,3 +125,8 @@ Download your Colab notebooks to your computer.
 Move them into your Deep Learning Challenge directory in your local repository.
 
 Push the added files to GitHub.
+
+# Deep Learning Challenge Report
+#### Overview:
+The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With knowledge of machine learning and neural networks, we must use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+
