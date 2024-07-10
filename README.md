@@ -143,3 +143,12 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 * __What variable(s) should be removed from the input data because they are neither targets nor features?__
   
   - As part of the preprocessing phase for the analysis, I have identified that the EIN or Employee Identification Number does not contain relevant information for our predictive model. As such, I excluded this variable from the feature and target selection, as it is not pertinent to the analysis.
+    ![image](https://github.com/seanrubin/deep-learning-challenge/assets/31460184/5a4013f6-82b2-42c2-86db-48fdb7e4126a)
+
+#### Compiling, Training, and Evaluating the Model
+* __How many neurons, layers, and activation functions did you select for your neural network model, and why?__
+
+  - For this neural network model, I selected three hidden layers with 7, 14, and 21 neurons respectively. I chose this combination after several iterations and tests with different numbers of neurons and layers, and found that this configuration produced the best results in terms of accuracy and loss. For the activation functions, I chose ReLU for the first and second hidden layers to introduce non-linearity in the model and improve its performance. For the output layer, I used sigmoid activation function to ensure the output is between 0 and 1, which is needed for binary classification.
+    ![image](https://github.com/seanrubin/deep-learning-challenge/assets/31460184/78c5ee22-8391-4041-aad4-8a8cf1909fc8)
+
+
