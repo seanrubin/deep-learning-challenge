@@ -127,6 +127,16 @@ Move them into your Deep Learning Challenge directory in your local repository.
 Push the added files to GitHub.
 
 # Deep Learning Challenge Report
-#### Overview:
+## Overview:
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With knowledge of machine learning and neural networks, we must use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
+## Results
+#### Data Prepocessing
+* What variable(s) are the target(s) for your model?
+The target variable(s) for the model is IS_SUCCESSFUL, as it represents the binary classification outcome variable of whether a charity donation was successful or not.
+
+* What variable(s) are the feature(s) for your model?
+The feature variables for the model are all the other columns in the DataFrame, excluding IS_SUCCESSFUL.
+
+* What variable(s) should be removed from the input data because they are neither targets nor features?
+As part of the preprocessing phase for the analysis, I have identified that the EIN or Employee Identification Number does not contain relevant information for our predictive model. As such, I excluded this variable from the feature and target selection, as it is not pertinent to the analysis.
