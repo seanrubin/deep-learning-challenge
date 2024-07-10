@@ -134,12 +134,12 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 #### Data Prepocessing
 * __What variable(s) are the target(s) for your model?__
 
-The target variable(s) for the model is IS_SUCCESSFUL, as it represents the binary classification outcome variable of whether a charity donation was successful or not.
+- The target variable(s) for the model is IS_SUCCESSFUL, as it represents the binary classification outcome variable of whether a charity donation was successful or not.
 
 * __What variable(s) are the feature(s) for your model?__
   
-The feature variables for the model are all the other columns in the DataFrame, excluding IS_SUCCESSFUL.
+- The feature variables for the model are all the other columns in the DataFrame, excluding IS_SUCCESSFUL.
 
 * __What variable(s) should be removed from the input data because they are neither targets nor features?__
   
-As part of the preprocessing phase for the analysis, I have identified that the EIN or Employee Identification Number does not contain relevant information for our predictive model. As such, I excluded this variable from the feature and target selection, as it is not pertinent to the analysis.
+- As part of the preprocessing phase for the analysis, I have identified that the EIN or Employee Identification Number does not contain relevant information for our predictive model. As such, I excluded this variable from the feature and target selection, as it is not pertinent to the analysis.
